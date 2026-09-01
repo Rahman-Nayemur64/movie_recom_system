@@ -2,6 +2,9 @@
 
 A machine learning-based movie recommendation engine that uses **TF-IDF vectorization** and **content-based filtering** to suggest similar movies based on user selection.
 
+## Main file is 
+movie_recommendation.ipynb
+
 ## Machine Learning Approach
 
 ### Algorithm: Content-Based Filtering with TF-IDF
