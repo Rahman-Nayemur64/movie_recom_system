@@ -50,7 +50,7 @@ echo "TMDB_API_KEY = 1216421e57246844b54678a782049f26" > .env
 python main.py
 
 # Terminal 2: Start interactive frontend
-streamlit run app.py
+python -m streamlit run app.py 
 ```
 
 ## How It Works
@@ -77,16 +77,19 @@ Return top N recommendations
 ## Results
 
 Given a movie, the system returns recommendations ranked by similarity score (0-1).
+<img width="1866" height="921" alt="image" src="https://github.com/user-attachments/assets/42bf7fa3-8f99-4771-b61c-247b669dad47" />
 
-**Example**: Select "The Shawshank Redemption" → Get similar drama/thriller movies with high relevance scores
 
-## Future ML Enhancements
+** Top-rated and Grid 8
+<img width="1868" height="925" alt="image" src="https://github.com/user-attachments/assets/b4d5049b-5bec-45fc-9cab-71c2d817bd1b" />
 
-- Hybrid filtering (content + collaborative)
-- Deep learning embeddings (Word2Vec, BERT)
-- User-based collaborative filtering
-- Matrix factorization (SVD)
 
----
 
-**Built with machine learning fundamentals in mind** 🤖
+**Example**: Select "Spider-Man" → Get similar drama/thriller movies with high relevance scores
+<img width="1863" height="922" alt="image" src="https://github.com/user-attachments/assets/3870f748-3e3a-4edc-9f16-5caf427dbe92" />
+
+** Select "Toy Story" → Get similar drama/thriller movies with high relevance scores
+<img width="1867" height="937" alt="image" src="https://github.com/user-attachments/assets/29aecf5d-01ea-4572-873c-37abebfb9cd6" />
+
+
+=
