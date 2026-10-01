@@ -27,7 +27,7 @@ movie_recommendation.ipynb
 
 ## Technology Stack
 
-- **Python 3.8+**
+- **Python 3.12**
 - **Pandas** - Data processing
 - **Scikit-learn** - TF-IDF and similarity calculations
 - **FastAPI** - Backend API
